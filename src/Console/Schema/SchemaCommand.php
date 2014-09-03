@@ -1,6 +1,6 @@
 <?php
 
-namespace Mitch\LaravelDoctrine\Console;
+namespace Mitch\LaravelDoctrine\Console\Schema;
 
 use Illuminate\Console\Command;
 use Doctrine\ORM\Mapping\ClassMetadataFactory;

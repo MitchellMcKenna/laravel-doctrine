@@ -1,8 +1,8 @@
-<?php namespace Mitch\LaravelDoctrine\Console;
+<?php namespace Mitch\LaravelDoctrine\Console\Schema;
 
 use Symfony\Component\Console\Input\InputOption;
 
-class SchemaCreateCommand extends SchemaCommand
+class CreateCommand extends SchemaCommand
 {
     /**
      * The console command name.

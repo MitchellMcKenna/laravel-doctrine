@@ -1,8 +1,8 @@
-<?php namespace Mitch\LaravelDoctrine\Console; 
+<?php namespace Mitch\LaravelDoctrine\Console\Schema;
 
 use Symfony\Component\Console\Input\InputOption;
 
-class SchemaDropCommand extends SchemaCommand
+class DropCommand extends SchemaCommand
 {
     /**
      * The console command name.
