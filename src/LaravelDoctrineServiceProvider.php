@@ -39,6 +39,7 @@ class LaravelDoctrineServiceProvider extends ServiceProvider
             'Mitch\LaravelDoctrine\Console\Schema\CreateCommand',
             'Mitch\LaravelDoctrine\Console\Schema\UpdateCommand',
             'Mitch\LaravelDoctrine\Console\Schema\DropCommand',
+            'Mitch\LaravelDoctrine\Console\Schema\ValidateCommand',
         ]);
     }
 
