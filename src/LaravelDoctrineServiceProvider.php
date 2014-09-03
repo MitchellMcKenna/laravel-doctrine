@@ -36,9 +36,11 @@ class LaravelDoctrineServiceProvider extends ServiceProvider
 
         $this->commands([
             'Mitch\LaravelDoctrine\Console\GenerateProxiesCommand',
-            'Mitch\LaravelDoctrine\Console\SchemaCreateCommand',
-            'Mitch\LaravelDoctrine\Console\SchemaUpdateCommand',
-            'Mitch\LaravelDoctrine\Console\SchemaDropCommand'
+            'Mitch\LaravelDoctrine\Console\Schema\CreateCommand',
+            'Mitch\LaravelDoctrine\Console\Schema\UpdateCommand',
+            'Mitch\LaravelDoctrine\Console\Schema\DropCommand',
+            'Mitch\LaravelDoctrine\Console\Schema\ValidateCommand',
+            'Mitch\LaravelDoctrine\Console\ClearCache\MetaDataCommand',
         ]);
     }
 
