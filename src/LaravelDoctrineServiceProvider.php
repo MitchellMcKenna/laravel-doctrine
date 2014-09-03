@@ -40,6 +40,7 @@ class LaravelDoctrineServiceProvider extends ServiceProvider
             'Mitch\LaravelDoctrine\Console\Schema\UpdateCommand',
             'Mitch\LaravelDoctrine\Console\Schema\DropCommand',
             'Mitch\LaravelDoctrine\Console\Schema\ValidateCommand',
+            'Mitch\LaravelDoctrine\Console\ClearCache\MetaDataCommand',
         ]);
     }
 
