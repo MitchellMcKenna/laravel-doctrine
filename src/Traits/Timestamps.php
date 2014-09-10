@@ -22,8 +22,13 @@ trait Timestamps
      */
     public function prePersist()
     {
-        $this->createdAt = new DateTime;
-        $this->updatedAt = new DateTime;
+        if (!$this->createdAt instanceof DateTime) {
+            $this->createdAt = new DateTime;
+        } 
+
+        if (!$this->updatedAt instanceof DateTime) {
+            $this->updatedAt = new DateTime;
+        }
     }
 
     /**
